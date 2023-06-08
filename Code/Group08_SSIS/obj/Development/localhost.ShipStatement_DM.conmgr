@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.ShipStatement_DM"
+  DTS:DTSID="{0F0A13F9-D710-4032-B737-1269D1B41578}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=ShipStatement_DM;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Project_Group08-{0F0A13F9-D710-4032-B737-1269D1B41578}localhost.ShipStatement_DM;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

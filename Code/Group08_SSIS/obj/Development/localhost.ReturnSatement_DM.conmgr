@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.ReturnSatement_DM"
+  DTS:DTSID="{4E90E200-621C-43B8-906A-11CC70CF8AD0}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=ReturnSatement_DM;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Project_Group08-{4E90E200-621C-43B8-906A-11CC70CF8AD0}localhost.ReturnSatement_DM;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
